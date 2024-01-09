@@ -145,7 +145,7 @@ public class ProjectOfAzhar {
 				String usernameOfTeacher = in.nextLine();
 				System.out.println("Enter password: ");
 				String passwordOfTeacher = in.nextLine();
-				//Checking username and password
+				
 				if(usernameOfTeacher.equals("username") && passwordOfTeacher.equals("12345678")){
 					teacherIsLoggedIn = true;
 				} else {
