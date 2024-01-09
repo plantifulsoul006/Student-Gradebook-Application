@@ -146,7 +146,7 @@ public class ProjectOfAzhar {
 				System.out.println("Enter password: ");
 				String passwordOfTeacher = in.nextLine();
 				//Checking username and password
-				if(usernameOfTeacher.equals("sumeyra_betul_polat") && passwordOfTeacher.equals("12345678")){
+				if(usernameOfTeacher.equals("username") && passwordOfTeacher.equals("12345678")){
 					teacherIsLoggedIn = true;
 				} else {
 					System.out.println("Your username or password is incorrect. Please try again.");
